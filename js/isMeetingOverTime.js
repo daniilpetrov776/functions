@@ -24,8 +24,8 @@ const isMeetingPossible = (startOfDay, endOfDay, startOfMeeting, timeForMeeting)
   } return false;
 
 };
-
-console.log(isMeetingPossible('08:00', '17:30', '14:00', 90)); // true
-console.log(isMeetingPossible('8:0', '10:0', '8:0', 120)); // true
-console.log(isMeetingPossible('08:00', '14:30', '14:00', 90)); // false
-console.log(isMeetingPossible('14:00', '17:30', '08:0', 90)); // false
+isMeetingPossible('08:00', '17:30', '14:00', 90);
+// console.log(isMeetingPossible('08:00', '17:30', '14:00', 90)); // true
+// console.log(isMeetingPossible('8:0', '10:0', '8:0', 120)); // true
+// console.log(isMeetingPossible('08:00', '14:30', '14:00', 90)); // false
+// console.log(isMeetingPossible('14:00', '17:30', '08:0', 90)); // false
